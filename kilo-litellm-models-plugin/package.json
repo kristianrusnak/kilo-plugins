@@ -1,0 +1,11 @@
+{
+  "name": "kilo-litellm-models-plugin",
+  "version": "0.1.0",
+  "description": "Registers every model your LiteLLM API key can access as a separate provider in Kilo. Touches no existing provider.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    "./server": "./index.js"
+  },
+  "license": "MIT"
+}
