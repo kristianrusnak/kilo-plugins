@@ -1,0 +1,11 @@
+{
+  "name": "kilo-cbm-plugin",
+  "version": "0.3.0",
+  "description": "Registers an already installed codebase-memory-mcp MCP server in Kilo (macOS, Linux, Windows). Installs nothing.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    "./server": "./index.js"
+  },
+  "license": "MIT"
+}
